@@ -30,3 +30,10 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(element);
     });
 });
+
+// document.getElementById('play-icon').addEventListener('click', function() {
+//     const video = document.getElementById('my-video');
+//     video.style.display = 'block';  // Show the video
+//     video.play();  // Play the video
+//     this.style.display = 'none';  // Hide the play icon
+// });

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AVSolutions.org.uk</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <div class="main">
+        <header style="margin-top: 20px;" class="navigation-bar">
+            <a href="/index.html">
+                <img  class="nav-logo-img" src="applogo.svg" alt="AV_solution_logo">
+            </a>
+            <ul class="nav">
+                <li class="nav-item">
+                    Services
+                    <div class="service-dropdown">
+                        <ul class="service-list">
+                            <li class="service-list-item">IT Consulting</li>
+                            <li class="service-list-item">Software Engineering</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    Solutions
+                    <div class="solution-dropdown">
+                        <ul class="solution-list">
+                            <li class="solution-list-item">Fintech</li>
+                            <li class="solution-list-item">ERP</li>
+                            <li class="solution-list-item">Gen-AI</li>
+                            <li class="solution-list-item">Cybersecurity</li>
+                            <li class="solution-list-item">Cloud</li>
+                            <li class="solution-list-item">Payment Gateway Solutions</li>
+                            <li class="solution-list-item">Saas</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">Pricing</li>
+                <li class="nav-item">About</li>
+                <li class="nav-item">Contact</li>
+            </ul>
+            <div style="margin-top: 0;" class="cta-container">
+                <button class="primary-cta">Book Demo</button>
+            </div>
+        </header>
+        <section style="padding-bottom: 60px;" class="hero-section">
+            <!-- <img style="position: absolute; width: 300px; height: 300px; opacity: 10%;" src="confetti1.svg"> -->
+            <div class="hero-desc">
+                <p class="main-heading">Unlock future payments with a glance using Face Pay!</p>
+                <p class="sub-heading">Simplify your payments with Face Pay’s effortless facial recognition.</p>
+                <div class="cta-container">
+                    <button class="primary-cta">Contact Now</button>
+                        <!-- Video Iframe -->
+                        <div style="cursor:pointer; display: flex; align-items: center;">
+                            <img id="play-icon" style="cursor:pointer; width: 50px; margin-right: 15px; margin-left: 15px;" src="play.svg" />
+                            <video id="my-video" controls style="position: absolute; width: 60%; top: 120px; display:none; margin-right: 15px; height: 370px;">
+                                <source src="AVsolutuions_video.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <p>Watch how it works</p>
+                        </div>
+                    <!-- <img style="cursor:pointer; width: 50px; margin-right: 15px; margin-left: 15px;" src="play.svg" />
+                    <p >Watch how it works</p> -->
+                    <!-- <button class="secondary-cta">Book Your Demo</button> -->
+                </div>
+            </div>
+            <div>
+                <img class="face-reco-image" src="heroimage.svg" alt="face-recognition">
+            </div>
+        </section>
+
+        <section style="padding-bottom: 130px;" class="feature-card-section">
+            <img src="confetti-3.svg" style="margin-top: 10%; opacity: 7%; position: absolute; margin-top: 21%; left: 25%; height: 780px;" />
+            <h2 class="feature-title">Features</h2>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                <div style="display: flex; border: 1px solid #ccc; padding: 20px; border-radius: 6px;">
+                    <img style="width: 100px;" src="/cardfree.svg" alt="cardlesspay" />
+                    <div style="margin-left: 40px;">
+                        <div style="color: #222; font-weight: bold; margin-bottom: 10px;">Cardless Payment</div>
+                        <div style="color: #222;">Even without cash, a mobile phone, or credit/debit cards, you can still shop in a supermarket using just your bank account or credit cards.</div>
+                    </div>
+                </div>
+                <div style="display: flex; border: 1px solid #ccc; padding: 20px; border-radius: 6px;">
+                    <img style="width: 100px;"  src="/multibio.svg" alt="biometrics" />
+                    <div style="margin-left: 40px;">
+                        <div style="color: #222; font-weight: bold; margin-bottom: 10px;">Multi-Biometric Verification</div>
+                        <div style="color: #222;">Unlock ultimate security with facial, iris, and lip recognition all in one. Our AI-driven multi-biometric system ensures your identity is verified with triple protection. Say goodbye to fraud and hello to peace of mind!</div>
+                    </div>
+                </div>
+
+                <div style="display: flex; border: 1px solid #ccc; padding: 20px; border-radius: 6px;">
+                    <img style="width: 100px;"  src="/security.svg" alt="securepayment" />
+                    <div style="margin-left: 40px;">
+                        <div style="color: #222; font-weight: bold; margin-bottom: 10px;">Secure Payments</div>
+                        <div style="color: #222;">From you to the merchant, every transaction is shielded by advanced encryption. Whether using Stripe or PayPal, our secure gateway ensures your payment is fast and untouchable. Instant verification, total safety!</div>
+                    </div>
+                </div>
+
+                <div style="display: flex; border: 1px solid #ccc; padding: 20px; border-radius: 6px;">
+                    <img style="width: 100px;"  src="frauddetection.svg" alt="frauddetection" />
+                    <div style="margin-left: 40px;">
+                        <div style="color: #222; font-weight: bold; margin-bottom: 10px;">Real-Time Fraud Detection</div>
+                        <div style="color: #222;">Smart AI monitors every transaction to detect fraud in real time. Suspicious activity? The system stops it instantly, keeping you protected. With 90% accuracy, your security evolves with every transaction!</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="padding-bottom: 60px; background-color: #cce;">
+            <h2 style="margin-top: 0; padding: 40px 120px 10px;" class="feature-title">Services</h2>
+            <div style="padding: 40px 120px;">
+                <div style="display: flex; margin-bottom: 80px;">
+                    <img style="width: 500px;" src="/customer.svg" />
+                    <div style="margin-left: 70px;">
+                        <p style="color: #222; font-weight: bold; font-size: 20px;">Customers</p>
+                        <p style="color: #081526;">Customers can continue using their preferred payment methods, such as banks or mobile wallets, but now they can shop without the need for cards or handling OTPs.</p>
+                        <p style="color: #081526; font-size: 18px; font-weight: 700;">Benefits: </p>
+                        <ul style="list-style: none; padding: 0; padding-left: 30px;">
+                            <li style="padding-bottom: 10px; color: #081526;">Shop effortlessly without needing a card or mobile wallet OTPs.</li>
+                            <li style="padding-bottom: 10px; color: #081526;">Experience a fast and simple checkout process, both online and in-store.</li>
+                            <li style="padding-bottom: 10px; color: #081526;">Especially beneficial in underserved areas, where customers only need to remember one PIN – eliminating the need for cards, mobile phones, or complex payment steps.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div style="display: flex; margin-bottom: 80px;">
+                    <div style="margin-right: 100px;">
+                        <p style="color: #222; font-weight: bold; font-size: 20px;">Banks</p>
+                        <p style="color: #081526;">Any payment providers, such as banks, credit/debit cards, and mobile wallets, can integrate our technology into their systems using its APIs and libraries.</p>
+                        <p style="color: #081526; font-size: 18px; font-weight: 700;">Benefits: </p>
+                        <ul style="list-style: none; padding: 0; padding-left: 30px;">
+                            <li style="padding-bottom: 10px; color: #081526;">Simplifying the complexity of card usage and OTP processes.</li>
+                            <li style="padding-bottom: 10px; color: #081526;">Reducing risks related to card theft, fraud, and OTP misuse.</li>
+                            <li style="padding-bottom: 10px; color: #081526;">Enabling faster payments by avoiding common card issues like damaged magnetic strips, broken chips, or incorrect card/CVV entries.</li>
+                            <li style="padding-bottom: 10px; color: #081526;">Expanding digital payments by eliminating the need for cards, card numbers, and OTPs, making transactions more seamless for everyone.</li>
+                        </ul>
+                    </div>
+                    <img style="width: 500px;" src="/bank.svg" />
+                </div>
+                <div style="display: flex;">
+                    <img style="width: 500px;" src="/merchant.svg" />
+                    <div style="margin-left: 70px;">
+                        <p style="color: #222; font-weight: bold; font-size: 20px;">Merchants</p>
+                        <p style="color: #081526;">Merchants can keep using their existing credit/debit card providers, wallet systems, or payment platforms. They’ll have the added advantage of integrating their mobile devices or POS machines into the our system for smoother transactions.</p>
+                        <p style="color: #081526; font-size: 18px; font-weight: 700;">Benefits: </p>
+                        <ul style="list-style: none; padding: 0;  padding-left: 30px;">
+                            <li style="padding-bottom: 10px; color: #081526;">Quick and efficient checkout process.</li>
+                            <li style="padding-bottom: 10px; color: #081526;">Eliminates issues like card swipes or faulty card chips.</li>
+                            <li style="padding-bottom: 10px; color: #081526;">No need for additional hardware.</li>
+                            <li style="padding-bottom: 10px; color: #081526;">No disruption to existing payment procedures.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- <section class="how-it-works">
+            <h2 style="font-size: 32px; padding: 30px 120px 50px; text-align: center;">Why Choose us?</h2>
+            <h1 style="text-align: center;">Pioneering Artificial Intelligence Innovations in Payment Gateways and Cybersecurity</h1>
+            <div style="margin-top: 60px; display: flex; justify-content: space-evenly;">
+                <div class="yuse-card">
+                    <p>3x Payment security</p>
+                </div>
+                <div class="yuse-card">
+                    <p>95% accuracy in real-time fraud detection</p>
+                </div>
+                <div class="yuse-card">
+                    <p>Complete Vendor-Merchant Transparency</p>
+                </div>
+            </div>
+        </section> -->
+        
+        <!-- <section class="contact-section">
+            <h4 class="contact-title" style="text-align: center;"> Contact Us</h4>
+            <h1 style="text-align: center;">Get In Touch</h1>
+            <form>
+                <div style="margin-top: 30px; display: flex; justify-content: space-evenly;">
+                    <input type="text" placeholder="Your Name" style="height: 40px; width: 300px; border-radius:10px;">
+                    <input type="text" placeholder="Your Email" style="height: 40px; width: 300px; border-radius:10px;">
+                </div>
+                <div style="margin-top: 30px; display: flex; justify-content: space-evenly;">
+                    <input type="number" placeholder="Your Phone" style="height: 40px; width: 300px; border-radius:10px;">
+                    <input type="text" placeholder="Your Subject" style="height: 40px; width: 300px; border-radius:10px;">
+                </div>
+                <div style="margin-top: 30px; display: flex; justify-content: space-evenly;">
+                    <textarea name="your message" placeholder="Your message" style="margin-top: 24px; border-radius: 20px; height: 100px; width: 66%;"></textarea>
+                </div>
+                <div style="display: flex; justify-content: center; margin-top: 40px;">
+                    <button onclick="formSubmission()" style="border-radius: 10px; padding: 15px 35px;" type="submit">Send Message</button>
+                </div>
+            </form>
+        </section> -->
+        <footer style="margin-bottom: 80px;">
+            <div class="footer-section">
+                <!-- <img  class="nav-logo-img" src="applogo.svg" alt="AV_solution_logo"> -->
+                <div>
+                    <p class="footer-head-title">Company</p>
+                    <p class="footer-desc">About Us</p>
+                    <p class="footer-desc">Features</p>
+                    <p class="footer-desc">How it works</p>
+                    <p class="footer-desc">Pricing</p>
+                </div>
+                <div>
+                    <p class="footer-head-title">Legal</p>
+                    <p class="footer-desc">Privacy Policy</p>
+                    <p class="footer-desc">Terms of Use</p>
+                    <p class="footer-desc">Terms of Service</p>
+                </div>
+                <div>
+                    <p class="footer-head-title">Social Media</p>
+                    <p class="footer-desc">Linked In</p>
+                    <p class="footer-desc">Twitter</p>
+                </div>
+            </div>
+            <hr>
+            <p style="text-align: center;">Copyright @ AVSolutions.org.uk 2024. All Rights Reserved.</p>
+            <img width="30px" src="linkedin.svg" />
+        </footer>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
+<!-- 
+https://teams.microsoft.com/l/meetup-join/19%3ameeting_M2IwZDliM2ItZGEwMS00NzBmLTgzNDgtM2JhNGNiYWZjODY3%40thread.v2/0?context=%7b%22Tid%22%3a%2225cc75a4-4e58-4739-a0ae-a39850c96e50%22%2c%22Oid%22%3a%2297d004ea-4313-41f2-8099-c8a237fa2bb3%22%7d
+Meeting ID: 378 158 989 955
+Passcode: upH5tX -->
